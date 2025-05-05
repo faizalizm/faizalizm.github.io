@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Site Maintenance</title>
+    <meta charset="UTF-8" />
+    <meta name="Faizal" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      /* Fz Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 0.5vw;
+        background: #000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #00bd9d;
+        box-shadow: 0 -100vh 0 100vh #00bd9d, 0 0 15px 5px black;
+        border-radius: 20px;
+      }
+      body {
+        text-align: center;
+        padding: 20px;
+        font: 20px "Source Sans Pro", sans-serif;
+        color: #efe8e8;
+      }
+      @media (min-width: 768px) {
+        body {
+          padding-top: 30vh;
+        }
+      }
+      h1 {
+        font-size: 50px;
+      }
+      article {
+        display: block;
+        text-align: left;
+        max-width: 650px;
+        margin: 0 auto;
+      }
+      a {
+        color: #00bd9d;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #efe8e8;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body bgcolor="000">
+    <article>
+      <h1>Page under construction!</h1>
+      <div>
+        <p>
+          Something great is happening in the back ! Do stay tuned for any
+          updates on my official site
+          <a href="https://www.faizalismail.com" target="_blank">here</a>. If
+          you need to, you can always
+          <a href="mailto:contact@faizalismail.com">contact me</a>, and
+          i&rsquo;ll get back to you shortly!
+        </p>
+        <p>&mdash; Faizal Ismail</p>
+      </div>
+    </article>
+  </body>
+</html>
